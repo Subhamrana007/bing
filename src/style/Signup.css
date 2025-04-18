@@ -1,0 +1,26 @@
+/* src/components/Register/Register.css */
+.register-container {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+  }
+  
+  .register-container input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .register-container button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Fixed: Added a value for border-radius */
+  }
